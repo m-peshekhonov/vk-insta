@@ -1,0 +1,36 @@
+.like
+{
+    font-size: 70px;
+
+    position: absolute;
+    left: 50%;
+    top: 0;
+
+    visibility: hidden;
+    opacity: 0;
+
+    padding: 0 10px;
+    margin-left: -61px;
+
+    color: #fff;
+
+    border-radius: 4px;
+
+    -webkit-transition: .2s;
+       -moz-transition: .2s;
+            transition: .2s;
+
+    cursor: pointer;
+
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .5);
+}
+
+.like_liked_yes
+{
+    right: 155px;
+}
+
+.like_liked_yes:before
+{
+    color: #ff2d55;
+}

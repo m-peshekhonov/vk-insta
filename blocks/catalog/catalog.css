@@ -1,0 +1,173 @@
+.catalog
+{
+    margin: auto;
+    padding: 15px;
+
+    width: 920px;
+}
+
+.catalog__description b
+{
+    font-weight: 400;
+}
+
+.catalog__description
+{
+    font-size: 16px;
+    width: 900px;
+
+    background: #f7f7f7;
+
+    border-radius: 4px;
+
+    margin: 5px auto 30px;
+    padding: 10px;
+}
+
+.catalog__item
+{
+    display: inline-block;
+
+    width: 300px;
+    margin: 0 5px 10px 0;
+
+    border-bottom: 1px solid #ddd;;
+}
+
+.catalog__item:hover .catalog__price
+{
+    color: #000;
+}
+
+.catalog__item:hover .link.catalog__button
+{
+    background: #f8d9df;
+    color: #FF2D55;
+}
+
+.catalog__item:hover .catalog__image
+{
+    -webkit-transition: .3s;
+       -moz-transition: .3s;
+         -o-transition: .3s;
+            transition: .3s;
+
+    -webkit-filter: grayscale(100%);
+       -moz-filter: grayscale(100%);
+         -o-filter: grayscale(100%);
+            filter: grayscale(100%);
+}
+
+.catalog__item .link
+{
+    display: inline-block;
+    border: 0;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.catalog__title
+{
+    font-size: 16px;
+
+    display: block;
+    text-align: center;
+
+    border: 0;
+}
+
+.catalog__image
+{
+    display: block;
+
+    width: 300px;
+    height: 300px;
+
+    background-size: 100%;
+}
+
+.catalog__image_type_pellow
+{
+    background-image: url(pellow.jpg);
+}
+
+.catalog__image_type_iphone
+{
+    background-image: url(iphone.jpg);
+}
+
+.catalog__image_type_ambrella
+{
+    background-image: url(umbrella.jpg);
+}
+
+.catalog__image_type_cosm
+{
+    background-image: url(cosm.jpg);
+}
+
+.catalog__image_type_bud
+{
+    background-image: url(clock.jpg);
+}
+
+.catalog__image_type_wall-clock
+{
+    background-image: url(clock-wall.jpg);
+}
+
+.catalog__image_type_ipad
+{
+    background-image: url(ipad.jpg);
+}
+
+.catalog__image_type_summer-bag
+{
+    background-image: url(bag.jpg);
+}
+
+.catalog__image_type_device-bag
+{
+    background-image: url(device.jpg);
+}
+
+.catalog__price,
+.catalog__button
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.catalog__price
+{
+    font-size: 18px;
+
+    padding: 5px 8px;
+
+    color: #666;
+}
+
+.catalog__button.link
+{
+    font-size: 16px;
+
+    float: right;
+
+    padding: 5px 8px;
+
+    border: 0;
+    border-radius: 4px;
+
+    background: #dff0fb;
+}
+
+.catalog__footer
+{
+    text-align: center;
+    margin: 40px;
+}
+
+.catalog__more-items
+{
+    font-size: 24px;
+}

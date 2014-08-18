@@ -1,0 +1,150 @@
+.menu_type_header
+{
+    display: inline-block;
+
+    margin-left: 25px;
+
+    vertical-align: middle;
+}
+
+.menu__olymp.select
+{
+    margin: 0 61px 0 -3px;
+
+    vertical-align: middle;
+}
+
+.menu__item_type_olymp .menu__item-text
+{
+    color: #007AFF;
+}
+
+.menu_type_header .menu__item.menu__item_type_olymp .link
+{
+    margin-left: 6px;
+    padding: 4px 11px 5px;
+
+    -webkit-transition: .3s;
+       -moz-transition: .3s;
+            transition: .3s;
+
+    border-radius: 3px;
+    background: rgba(220,220,225,.6);
+}
+
+.menu_type_header .menu__item.menu__item_type_olymp .link:hover
+{
+    background: rgba(215,215,220,.7);
+}
+.menu__item.menu__item_type_olymp:hover .menu__item-text
+{
+    color: #f6527c;
+}
+
+.menu__item-text
+{
+    display: inline-block;
+
+    vertical-align: middle;
+}
+
+.menu_type_header .icon
+{
+    font-size: 20px;
+
+    vertical-align: middle;
+
+    display: inline-block;
+}
+
+.menu_type_header .menu__item
+{
+    display: inline-block;
+}
+
+.menu_type_header .menu__item .link
+{
+    font-weight: 300;
+
+    display: inline-block;
+
+    padding: 9px 7px;
+
+    border: 0;
+
+    color: #A8B2BE;
+    text-decoration: none;
+
+    -webkit-transition: .15s;
+       -moz-transition: .15s;
+            transition: .15s;
+}
+
+.menu_type_header .menu__item .link:hover,
+.menu_type_header .menu__item_active_yes .link
+{
+    color: #fff;
+}
+
+/* Иконки в шапке */
+
+.menu_type_header .icon_type_home
+{
+    margin-right: 3px;
+}
+
+.menu_type_header .icon_type_star
+{
+    font-size: 22px;
+    margin-top: -2px;
+}
+
+.menu_type_header .icon_type_answers
+{
+    font-size: 23px;
+    margin: -2px 3px 0 0;
+}
+
+.menu_type_header .icon_type_like
+{
+    font-size: 23px;
+    margin-top: 0;
+}
+
+.menu_type_header .icon_type_profile
+{
+    margin-right: 5px;
+}
+
+.menu_type_header .icon_type_plus
+{
+    font-size: 19px;
+}
+
+.menu_type_header .menu__item_type_profile .link
+{
+    padding-right: 10px;
+}
+
+.menu_type_header .menu__item_type_self .link
+{
+    padding-right: 9px;
+}
+
+.menu__item_type_vk .icon_type_vk
+{
+    font-size: 21px;
+    margin: -1px 3px 0 0;
+}
+
+.menu__item_type_ad .icon_type_catalog
+{
+    font-size: 15px;
+    margin-right: 3px;
+}
+
+.icon_type_users
+{
+    margin-right: 3px;
+}
+

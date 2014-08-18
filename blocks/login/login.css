@@ -1,0 +1,144 @@
+.login
+{
+    position: fixed;
+    top: 171px;
+    z-index: 11;
+
+    width: 955px;
+
+    margin-left: 0;
+    padding: 62px 0;
+
+    background: rgba(248, 255, 255, 0.25);
+}
+
+.login__inner
+{
+    white-space: nowrap;
+}
+
+.login__icon
+{
+    display: inline-block;
+
+    width: 250px;
+    height: 250px;
+
+    margin: 0 50px 0 100px;
+    background: url(login__icon.png) no-repeat;
+
+    -webkit-box-reflect: below 0 -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.78, transparent), to(rgba(0,0,0,0.1)));
+
+    opacity: .9;
+
+    -webkit-transition: .4s;
+       -moz-transition: .4s;
+         -o-transition: .4s;
+            transition: .4s;
+}
+
+.login__content
+{
+    display: inline-block;
+
+    width: 500px;
+
+    margin-top: -2px;
+
+    vertical-align: top;
+}
+
+.login__logo
+{
+    width: 250px;
+    height: 72px;
+
+    margin-left: 25px;
+
+    background: url(login__logo.png) no-repeat;
+    background-size: 100%;
+}
+
+.login__list
+{
+    font-size: 16px;
+    font-weight: 300;
+
+    position: relative;
+
+    margin: 12px 0 0 26px;
+}
+
+.login__list .list__item
+{
+    margin-bottom: 6px;
+}
+
+.login__list .list__item:before
+{
+    position: absolute;
+    left: -24px;
+    content:  '—';
+}
+
+.login__button
+{
+    font-size: 16px;
+    font-weight: 300;
+
+    display: inline-block;
+
+    margin: 16px 0 0 9px;
+    padding: 8px 16px;
+
+    border: 1px solid #000;
+    border-radius: 4px;
+
+    cursor: pointer;
+}
+
+.login__button:hover
+{
+    color: #fff;
+
+    border-color: #007AFF;
+    background: #007AFF;
+}
+
+.login__notice
+{
+    font-size: 18px;
+    font-weight: 300;
+
+    margin: 50px 0 0 100px;
+}
+
+.login__notice-text
+{
+    display: inline;
+}
+
+.login__notice-text_type_bold
+{
+    font-weight: 700;
+}
+
+.login__notice_type_designer
+{
+    font-size: 16px;
+
+    margin-top: 8px;
+}
+
+.login__notice_type_developers
+{
+    font-size: 16px;
+
+    margin-top: 45px;
+}
+
+.login__notice_type_developers .link,
+.login__notice_type_designer .link
+{
+    display: inline-block;
+}

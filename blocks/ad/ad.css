@@ -1,0 +1,115 @@
+.ad.link
+{
+    display: none;
+
+    position: fixed;
+    top: 0;
+    z-index: 9;
+
+    opacity: .9;
+
+    width: 908px;
+
+    margin-left: 14px;
+    padding: 2px 4px 5px 4px;
+
+    border: 0;
+
+    color: #007AFF;
+    background: #fff;
+
+    white-space: nowrap;
+}
+
+.link.ad_show_yes
+{
+    display: block;
+}
+
+.b-page_type_login .ad.link
+{
+    top: 57px;
+    padding: 11px 4px 7px 6px;
+
+    opacity: .88;
+
+    text-align: center;
+
+    background: #f8ffff;
+    color: #1d95da;
+}
+
+.ad.link .link__text
+{
+    border-bottom: 1px solid transparent;
+
+    -webkit-transition: .2s;
+       -moz-transition: .2s;
+         -o-transition: .2s;
+            transition: .2s;
+}
+
+.ad.link:hover .link__text
+{
+    border-color: #fba9c4;
+    color: #f6527c;
+}
+
+.ad_type_popup.link
+{
+    display: block;
+    border-bottom: 1px solid #ddd;
+}
+
+.ad_type_popup.link
+{
+    position: static;
+
+    width: 338px;
+
+    margin-left: 0;
+    padding: 3px 7px;
+}
+
+.ad_type_popup.link .link__text
+{
+    font-size: 14px;
+    margin: 11px 0 0 7px;
+}
+
+.ad_type_popup.link .link__pic
+{
+    width: 40px;
+    height: 40px;
+
+    background-size: 100%;
+    background-image: url(ad.jpg);
+}
+
+.b-page_type_login .ad.link:hover
+{
+    color: #f6527c;
+}
+
+.link__pic,
+.ad_type_popup .link__pic
+{
+    width: 300px;
+    height: 50px;
+
+    display: inline-block;
+    vertical-align: top;
+
+    background-image: url(ad_type_header.png);
+}
+
+.link__text,
+.ad_type_popup .link__text
+{
+    font-size: 16px;
+
+    margin: 15px 0 0 10px;
+
+    display: inline-block;
+    vertical-align: top;
+}

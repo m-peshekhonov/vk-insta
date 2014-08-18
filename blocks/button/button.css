@@ -1,0 +1,16 @@
+.button_type_comment
+{
+    font-weight: 300;
+
+    display: inline-block;
+
+    width: 25%;
+    margin-left: 13px;
+
+    background: none;
+    border: 0;
+    outline: 0;
+
+    color: #5398D1;
+    cursor: pointer;
+}

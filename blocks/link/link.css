@@ -1,0 +1,18 @@
+.link
+{
+    color: #1d95da;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+
+    -webkit-transition: .2s;
+       -moz-transition: .2s;
+            transition: .2s;
+}
+
+.link:hover
+{
+    color: #f6527c;
+    text-decoration: none;
+
+    border-bottom: 1px solid #fba9c4;
+}

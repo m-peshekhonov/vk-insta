@@ -1,0 +1,33 @@
+.updater
+{
+    display: inline-block;
+    font-size: 18px;
+
+    margin-top: 9px;
+
+    cursor: pointer;
+    vertical-align: middle;
+
+    -webkit-animation: updater 1s infinite linear;
+       -moz-animation: updater 1s infinite linear;
+
+    -webkit-transform: rotate(0);
+
+    -webkit-transition: .1s;
+       -moz-transition: .1s;
+         -o-transition: .1s;
+            transition: .1s;
+
+    color: #222;
+}
+
+.updater:hover
+{
+    color: #007AFF;
+}
+
+.b-page_loading_yes .updater
+{
+    visibility: hidden;
+    opacity: 0;
+}

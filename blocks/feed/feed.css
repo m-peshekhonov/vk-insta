@@ -1,0 +1,11 @@
+.feed
+{
+    padding: 0 10px;
+}
+
+.feed__message
+{
+    font-size: 15px;
+    padding: 50px 0;
+    text-align: center;
+}

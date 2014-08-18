@@ -1,0 +1,108 @@
+.loader
+{
+    position: fixed;
+    top: 0;
+
+    width: 952px;
+    height: 100%;
+
+    -webkit-transition: .3s;
+       -moz-transition: .3s;
+         -o-transition: .3s;
+            transition: .3s;
+
+    background: rgba(255, 255, 255, .75);
+
+    visibility: hidden;
+    opacity: 0;
+}
+
+.b-page_loading_yes  .loader
+{
+    visibility: visible;
+    opacity: 1;
+}
+
+.loader__spinner
+{
+    position: absolute;
+    top: 300px;
+    left: 50%;
+
+    width: 175px;
+    height: 82px;
+
+    margin: 0 0 0 -75px;
+}
+
+.loader__item
+{
+    position: absolute;
+    top: 23px;
+
+    width: 82px;
+    height: 7px;
+}
+
+.loader__item_type_left
+{
+    left: 3px;
+
+    -webkit-animation: left 1.5s infinite;
+       -moz-animation: left 1.5s infinite;
+         -o-animation: left 1.5s infinite;
+            animation: left 1.5s infinite;
+}
+
+.loader__item_type_right
+{
+    right: 3px;
+
+    -webkit-animation: right 1.5s infinite;
+       -moz-animation: right 1.5s infinite;
+         -o-animation: right 1.5s infinite;
+            animation: right 1.5s infinite;
+}
+
+@-webkit-keyframes left
+{
+  from { -webkit-transform:rotate(180deg) scale(1);   }
+  50%  { -webkit-transform:rotate(540deg) scale(1.5); }
+  to   { -webkit-transform:rotate(540deg) scale(1);   }
+}
+
+@-moz-keyframes left
+{
+  from { -moz-transform:rotate(180deg) scale(1);   }
+  50%  { -moz-transform:rotate(540deg) scale(1.5); }
+  to   { -moz-transform:rotate(540deg) scale(1);   }
+}
+
+@-webkit-keyframes right
+{
+  from { -webkit-transform:rotate(0deg) scale(1.5);    }
+  50%  { -webkit-transform:rotate(0deg) scale(1);      }
+  to   { -webkit-transform:rotate(-360deg) scale(1.5); }
+}
+
+@-moz-keyframes right
+{
+  from { -moz-transform:rotate(0deg) scale(1.5);    }
+  50%  { -moz-transform:rotate(0deg) scale(1);      }
+  to   { -moz-transform:rotate(-360deg) scale(1.5); }
+}
+
+.loader__item_type_right:after,
+.loader__item_type_left:after
+{
+  display: block;
+
+  content: '';
+
+  width: 7px;
+  height: 7px;
+
+  border-radius: 50%;
+
+  background: #333;
+}

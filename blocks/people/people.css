@@ -1,0 +1,12 @@
+.people
+{
+    margin: 10px 0 0 2px;
+    padding: 0 5px;
+}
+
+.people__message
+{
+    font-size: 15px;
+    padding-top: 50px;
+    text-align: center;
+}

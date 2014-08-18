@@ -1,0 +1,83 @@
+.header
+{
+    position: fixed;
+    top: 0;
+
+    z-index: 4;
+
+    width: 955px;
+    height: 49px;
+
+    white-space: nowrap;
+
+    background: #222;
+}
+
+.header .input_type_header
+{
+    background: #393939;
+    color: #A8B2BE;
+    
+    padding: 5px 10px;
+    
+    border: 0;
+    border-radius: 3px;
+    
+    width: 160px;
+    
+    -webkit-transition: .2s;
+       -moz-transition: .2s;
+        -ms-transition: .2s;
+         -o-transition: .2s;
+            transition: .2s;
+}
+
+.header .input_type_header:focus
+{
+    color: #fff;
+}
+
+.ad_show_yes ~ .header
+{
+    top: 57px;
+}
+
+.header_hide_yes
+{
+    display: none;
+}
+
+.header__vkinvite .link
+{
+    padding-right: 9px;
+}
+
+.header__search
+{
+    float: right;
+
+    position: relative;
+
+    display: inline-block;
+    
+    margin: 9px 16px 0 0;
+
+    vertical-align: middle;
+}
+
+
+/*.header__search::before
+{
+    position: relative;
+    font-size: 15px;
+    top: 1px;
+    left: 15px;
+    content: '#';
+    color: #ccc;
+}*/
+
+/*.header__search .input_type_header
+{
+    padding-left: 17px;
+}
+*/

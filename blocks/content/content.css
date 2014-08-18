@@ -1,0 +1,28 @@
+.content
+{
+    width: 952px;
+    margin-top: 10px;
+}
+
+.ad_show_yes ~ .content
+{
+    margin-top: 106px;
+}
+/*
+.b-page_type_login .content:after
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    content: '';
+
+    width: 100%;
+    height: 65px;
+
+    -webkit-box-shadow: 0 -30px 65px rgba(255,255,255,.9) inset;
+       -moz-box-shadow: 0 -30px 65px rgba(255,255,255,.9) inset;
+         -o-box-shadow: 0 -30px 65px rgba(255,255,255,.9) inset;
+            box-shadow: 0 -30px 65px rgba(255,255,255,.9) inset;
+}
+*/

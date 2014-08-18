@@ -1,0 +1,9 @@
+.*
+GNUmakefile
+LICENSE
+app/*/*
+!app/*/*.server.js
+!app/*/*.bemhtml.js
+!app/*/*.priv.js
+!app/*/*_*
+

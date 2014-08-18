@@ -1,0 +1,151 @@
+.user
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: 145px;
+    height: 144px;
+
+    margin: 0 5px 10px;
+    padding: 0;
+    
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.user__inner
+{
+    display: table;
+
+    background: #f6f7f8;
+}
+
+.user__info
+{
+    display: table-cell;
+
+    line-height: 20px;
+
+    width: 134px;
+    padding: 5px 5px 0;
+
+    vertical-align: middle;
+
+    background: rgba(0, 0, 0, .2);
+    background: -webkit-linear-gradient(transparent, rgba(0, 0, 0, .50) 70%);
+    background:    -moz-linear-gradient(transparent, rgba(0, 0, 0, .50) 70%);
+    background:         linear-gradient(transparent, rgba(0, 0, 0, .50) 70%);
+    
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    
+    text-align: center;
+    
+    visibility: hidden;
+    opacity: 0;
+    
+    -webkit-transition: .3s;
+       -moz-transition: .3s;
+        -ms-transition: .3s;
+         -o-transition: .3s;
+            transition: .3s;
+    
+    z-index: 2;
+}
+
+.user:hover .user__info
+{
+    visibility: visible;
+    opacity: 1;
+    
+    bottom: -2px;
+}
+
+.user__avatar
+{
+    position: relative;
+    z-index: 1;
+
+    display: table-cell;
+
+    width: 145px;
+    height: 145px;
+
+    margin-right: 15px;
+
+    -webkit-transition: .2s;
+       -moz-transition: .2s;
+         -o-transition: .2s;
+            transition: .2s;
+
+    background-color: #e6e6e6;
+    background-size: 100%;
+}
+
+.user__name
+{
+    font-size: 14px;
+
+    display: inline-block;
+
+    position: relative;
+    z-index: 1;
+    
+    color: #fff;
+
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 100%;
+    white-space: nowrap;
+}
+
+.user__bio
+{
+    margin-bottom: 7px;
+
+    color: #777;
+}
+
+.user__full-name,
+.user__links .link
+{
+    display: inline-block;
+
+    max-width: 310px;
+
+    white-space: nowrap;
+
+    text-overflow: ellipsis;
+    text-transform: lowercase;
+
+    overflow: hidden;
+}
+
+.user__description
+{
+    text-transform: lowercase;
+}
+
+.user__full-name
+{
+    color: #000;
+}
+
+.user__links .link
+{
+    border-bottom: 1px solid transparent;
+}
+
+.user__links .link:hover
+{
+    border-color: #b2ccf0;
+}
+
+.user__full-name:first-letter,
+.user__description:first-letter
+{
+    text-transform: uppercase;
+}
+

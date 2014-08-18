@@ -1,0 +1,115 @@
+.banner
+{
+    position: fixed;
+    left: 50%;
+    top: 75px;
+
+    z-index: 99;
+
+    visibility: hidden;
+    opacity: 0;
+    margin: 0 0 0 -200px;
+
+    background: #fff;
+}
+
+.banner_show_yes
+{
+    visibility: visible;
+    opacity: 1;
+}
+
+.banner__image.link:hover
+{
+    -webkit-transition: .5s;
+       -moz-transition: .5s;
+         -o-transition: .5s;
+            transition: .5s;
+
+    background-image: url(banner_hover.jpg);
+}
+
+.banner__image.link
+{
+    display: block;
+
+    width: 420px;
+    height: 400px;
+
+    -webkit-transition: .5s;
+       -moz-transition: .5s;
+         -o-transition: .5s;
+            transition: .5s;
+
+    background-image: url(banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    cursor: pointer;
+
+    border: 0;
+}
+
+.banner__title
+{
+    font-size: 16px;
+
+    padding: 10px;
+
+    color: #000;
+    background: #eee;
+}
+
+.banner__title-text
+{
+    float: left;
+}
+
+.banner__title-text,
+.banner__close
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.banner__close
+{
+    float: right;
+
+    -webkit-transition: .25s;
+       -moz-transition: .25s;
+         -o-transition: .25s;
+            transition: .25s;
+
+    cursor: pointer;
+}
+
+.banner__timer
+{
+    padding: 10px;
+
+    text-align: center;
+}
+
+.banner__timer-sec
+{
+    display: inline;
+
+    padding: 0 5px;
+}
+
+.banner__timer-text
+{
+    display: inline;
+}
+
+.banner__close:hover
+{
+    color: #808080;
+}
+
+.banner_show_yes ~ .paranja
+{
+    visibility: visible;
+    opacity: 1;
+}

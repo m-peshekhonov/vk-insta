@@ -1,0 +1,16 @@
+.logo
+{
+    display: inline-block;
+
+    margin: 4px 0 0 9px;
+
+    float: left;
+
+    width: 120px;
+    height: 42px;
+
+    vertical-align: middle;
+
+    background: url(logo.png) no-repeat;
+}
+

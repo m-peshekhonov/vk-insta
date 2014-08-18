@@ -1,0 +1,25 @@
+.input
+{
+    display: inline-block;
+
+    width: 100%;
+    font: 300 13px 'Open Sans';
+
+    padding: 4px 6px 5px;
+
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    outline: none;
+
+    background: rgba(255,255,255,.7);
+}
+
+.input:focus
+{
+    border-color: rgba(0, 0, 0, 0.35);
+}
+
+.input_active_yes
+{
+    color: #007AFF;
+}

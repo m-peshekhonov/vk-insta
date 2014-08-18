@@ -1,0 +1,169 @@
+.like-box
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 101;
+
+    width: 685px;
+
+    -webkit-transition: .3s;
+       -moz-transition: .3s;
+         -o-transition: .3s;
+            transition: .3s;
+
+    margin: -225px 0 0 -340px;
+
+    background: #fff;
+
+    overflow: hidden;
+
+    visibility: hidden;
+    opacity: 0;
+
+}
+
+.like-box__title-text,
+.like-box__close
+{
+    display: inline-block;
+}
+
+.like-box__close
+{
+    float: right;
+
+    -webkit-transition: .3s;
+       -moz-transition: .3s;
+         -o-transition: .3s;
+            transition: .3s;
+
+    cursor: pointer;
+}
+
+.like-box__close:hover
+{
+    opacity: .7;
+}
+
+.like-box-paranja
+{
+    visibility: hidden;
+    opacity: 0;
+}
+
+.like-box_show_yes ~ .like-box-paranja
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+
+    cursor: pointer;
+
+    visibility: visible;
+    opacity: 1;
+
+    background: rgba(0, 0, 0, .7);
+}
+
+.like-box__inner
+{
+    font-size: 0; /* отступы у инлайн блоков */
+
+    width: 696px;
+    height: 403px;
+    padding: 42px 15px 0 10px;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.like-box_show_yes
+{
+    visibility: visible;
+    opacity: 1;
+
+    top: 50%;
+}
+
+.like-box__title
+{
+    position: fixed;
+    z-index: 1;
+
+    width: 663px;
+    padding: 12px 11px;
+
+    background: rgba(255,255,255, .9);
+
+    color: #000;
+}
+
+.like-box__item
+{
+    display: inline-block;
+
+    width: 135px;
+    margin-bottom: 10px;
+
+    text-align: center;
+}
+
+.like-box__avatar.link
+{
+    position: relative;
+
+    display: block;
+
+    overflow: hidden;
+
+    border: 0;
+
+    width: 125px;
+    height: 125px;
+
+    background-color: #e6e6e6;
+    background-size: 100%;
+}
+
+.like-box__avatar:hover .like-box__username
+{
+    bottom: 0;
+
+    visibility: visible;
+    opacity: 1;
+}
+
+.like-box__username
+{
+    font-size: 12px;
+    font-weight: 300;
+
+    position: absolute;
+    bottom: -20px;
+
+    width: 100%;
+    padding: 6px 0 1px;
+
+    background: rgba(0, 0, 0, .2);
+    background: -webkit-linear-gradient(transparent, rgba(0, 0, 0, .4) 70%);
+    background:    -moz-linear-gradient(transparent, rgba(0, 0, 0, .4) 70%);
+    background:         linear-gradient(transparent, rgba(0, 0, 0, .4) 70%);
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    visibility: hidden;
+    opacity: 0;
+
+    -webkit-transition: .2s;
+       -moz-transition: .2s;
+         -o-transition: .2s;
+            transition: .2s;
+
+    color: rgba(250,250,255,.95);
+}
